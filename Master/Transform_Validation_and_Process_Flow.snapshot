@@ -329,7 +329,7 @@
         "outputPorts" : [ ],
         "position" : {
           "x" : -227.36915966853326,
-          "y" : -405.5989018137923
+          "y" : -406.7848148997298
         },
         "processGroups" : [ {
           "comments" : "",
@@ -801,8 +801,8 @@
           "name" : "PrepareCallback",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 198.54935361200342,
-            "y" : 1077.4527372298003
+            "x" : 200.18781186395654,
+            "y" : 1084.0064481673003
           },
           "properties" : {
             "security" : "True",
