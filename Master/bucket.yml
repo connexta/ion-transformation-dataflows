@@ -1,8 +1,4 @@
 flows:
-  06ef4292-83e6-4d8d-8c79-518854ab4f6a: {ver: 2, file: Transform_Validation_and_Process_Flow.snapshot,
-    comments: Updated Internal Process Group, author: anonymous, created: 1558456999916,
-    flowName: Transform Validation and Process Flow, flowDesc: Transform Validation
-      and Process Flow for Master}
   076168e0-20be-472e-a0f9-898d4bb44ee3: {ver: 1, file: Transform_Process_Flow.snapshot,
     comments: Initial Version, author: anonymous, created: 1558456982118, flowName: Transform
       Process Flow, flowDesc: Transform Process Flow for Master}
