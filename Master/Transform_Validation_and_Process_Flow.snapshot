@@ -801,8 +801,8 @@
           "name" : "PrepareCallback",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 201.76605893426904,
-            "y" : 1071.3804716048003
+            "x" : 198.60956479364404,
+            "y" : 1074.5369657454253
           },
           "properties" : {
             "security" : "True",
