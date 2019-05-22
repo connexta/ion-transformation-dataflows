@@ -16,7 +16,7 @@
         "name" : "Test Nested",
         "outputPorts" : [ ],
         "position" : {
-          "x" : -211.17618160286997,
+          "x" : -210.16643123665904,
           "y" : -774.9868270955699
         },
         "processGroups" : [ {
@@ -32,8 +32,8 @@
           "name" : "Transform Process Group",
           "outputPorts" : [ ],
           "position" : {
-            "x" : 676.000050557913,
-            "y" : 236.9999599096609
+            "x" : 721.9999895227568,
+            "y" : 219.9999599096609
           },
           "processGroups" : [ ],
           "processors" : [ ],
