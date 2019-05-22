@@ -16,11 +16,82 @@
         "name" : "Test",
         "outputPorts" : [ ],
         "position" : {
-          "x" : -863.5802099380267,
-          "y" : -811.2875356774424
+          "x" : -845.4298803481829,
+          "y" : -775.9952383141612
         },
         "processGroups" : [ ],
-        "processors" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ "success" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.9.2"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "49ad3545-ae3e-3254-b7d1-6839ec78e699",
+          "identifier" : "506b4202-c944-3aa5-8c7e-7765e89138d5",
+          "name" : "GenerateFlowFile",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 542.000050557913,
+            "y" : 152.9999599096609
+          },
+          "properties" : {
+            "character-set" : "UTF-8",
+            "File Size" : "0B",
+            "Batch Size" : "1",
+            "Unique FlowFiles" : "false",
+            "Data Format" : "Text"
+          },
+          "propertyDescriptors" : {
+            "character-set" : {
+              "displayName" : "Character Set",
+              "identifiesControllerService" : false,
+              "name" : "character-set",
+              "sensitive" : false
+            },
+            "File Size" : {
+              "displayName" : "File Size",
+              "identifiesControllerService" : false,
+              "name" : "File Size",
+              "sensitive" : false
+            },
+            "generate-ff-custom-text" : {
+              "displayName" : "Custom Text",
+              "identifiesControllerService" : false,
+              "name" : "generate-ff-custom-text",
+              "sensitive" : false
+            },
+            "Batch Size" : {
+              "displayName" : "Batch Size",
+              "identifiesControllerService" : false,
+              "name" : "Batch Size",
+              "sensitive" : false
+            },
+            "Unique FlowFiles" : {
+              "displayName" : "Unique FlowFiles",
+              "identifiesControllerService" : false,
+              "name" : "Unique FlowFiles",
+              "sensitive" : false
+            },
+            "Data Format" : {
+              "displayName" : "Data Format",
+              "identifiesControllerService" : false,
+              "name" : "Data Format",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.GenerateFlowFile",
+          "yieldDuration" : "1 sec"
+        } ],
         "remoteProcessGroups" : [ ],
         "variables" : { }
       }
