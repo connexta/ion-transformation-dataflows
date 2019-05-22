@@ -8,6 +8,8 @@ flows:
     created: 1558534417166
     flowName: Test
     flowDesc: Test
+  7aea4f20-eb0d-49d6-b048-7f4972f16993: {ver: 1, file: Test_Copy.snapshot, comments: Initial,
+    author: anonymous, created: 1558534768455, flowName: Test Copy, flowDesc: ''}
   12bac198-4be2-4a02-9e7c-ab51556e5f15: {ver: 2, file: Transform_Process_Flow.snapshot,
     comments: Second Commit, author: anonymous, created: 1558529657777, flowName: Transform
       Process Flow, flowDesc: Transform Process Flow}
