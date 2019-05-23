@@ -328,8 +328,8 @@
         "name" : "Transform Validation and Process Group",
         "outputPorts" : [ ],
         "position" : {
-          "x" : -227.36915966853326,
-          "y" : -406.7848148997298
+          "x" : -79.91482159480279,
+          "y" : -143.98312575178056
         },
         "processGroups" : [ {
           "comments" : "",
@@ -355,7 +355,7 @@
             "bucketId" : "aa92b901-f4ab-40e2-8b63-86a56294d399",
             "flowId" : "12bac198-4be2-4a02-9e7c-ab51556e5f15",
             "registryUrl" : "http://lore-nifi.phx.connexta.com:18080",
-            "version" : 2
+            "version" : 3
           }
         } ],
         "processors" : [ {
@@ -1256,7 +1256,7 @@
           "name" : "ConsumeAMQP",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -426.14400953471477,
+            "x" : -427.2262238901835,
             "y" : 593.0
           },
           "properties" : {
@@ -1268,7 +1268,7 @@
             "cert-authentication" : "false",
             "auto.acknowledge" : "false",
             "Host Name" : "${transformer.amqp.hostname}",
-            "Queue" : "request"
+            "Queue" : "sodars"
           },
           "propertyDescriptors" : {
             "AMQP Version" : {

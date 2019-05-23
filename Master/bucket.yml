@@ -16,9 +16,9 @@ flows:
   4643f36a-f832-4d86-b4d4-2a120e318706: {ver: 2, file: Test_Nested.snapshot, comments: second,
     author: anonymous, created: 1558534440074, flowName: Test Nested, flowDesc: Test
       Nested}
-  5544912e-6d2b-449b-9210-5e8fa74bce92: {ver: 6, file: Transform_Validation_and_Process_Flow.snapshot,
-    comments: Neg change 3, author: anonymous, created: 1558554768599, flowName: Transform
-      Validation and Process Flow, flowDesc: Transform Validation and Process Flow
-      for Master}
+  5544912e-6d2b-449b-9210-5e8fa74bce92: {ver: 7, file: Transform_Validation_and_Process_Flow.snapshot,
+    comments: Changed Variables in AMQPConsumer, author: anonymous, created: 1558621282377,
+    flowName: Transform Validation and Process Flow, flowDesc: Transform Validation
+      and Process Flow for Master}
 layoutVer: 1
 bucketId: aa92b901-f4ab-40e2-8b63-86a56294d399
