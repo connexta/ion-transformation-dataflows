@@ -355,7 +355,7 @@
             "bucketId" : "aa92b901-f4ab-40e2-8b63-86a56294d399",
             "flowId" : "12bac198-4be2-4a02-9e7c-ab51556e5f15",
             "registryUrl" : "http://lore-nifi.phx.connexta.com:18080",
-            "version" : 3
+            "version" : 4
           }
         } ],
         "processors" : [ {
@@ -513,7 +513,7 @@
             "Use Chunked Encoding" : "false",
             "Follow Redirects" : "True",
             "Remote URL" : "${callbackUrl}",
-            "Content-Type" : "${mime.type}",
+            "Content-Type" : "${mimeType}",
             "Read Timeout" : "15 secs",
             "Max Length To Put In Attribute" : "256",
             "Digest Authentication" : "false",
@@ -1054,7 +1054,7 @@
             "Use Chunked Encoding" : "false",
             "Follow Redirects" : "True",
             "Remote URL" : "${callbackUrl}",
-            "Content-Type" : "${mime.type}",
+            "Content-Type" : "${mimeType}",
             "Read Timeout" : "15 secs",
             "Max Length To Put In Attribute" : "256",
             "Digest Authentication" : "false",
