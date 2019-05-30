@@ -11,11 +11,11 @@
           "backPressureDataSizeThreshold" : "1 GB",
           "backPressureObjectThreshold" : 10000,
           "bends" : [ {
-            "x" : -68.55978929368348,
-            "y" : 165.26588260693597
+            "x" : -66.46907579270692,
+            "y" : 145.40403568310785
           }, {
-            "x" : 91.24695814283996,
-            "y" : 165.41790592236566
+            "x" : 93.33767164381652,
+            "y" : 145.55605899853754
           } ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -697,8 +697,8 @@
           "name" : "Wait",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : -112.25032579270692,
-            "y" : 246.95359622998285
+            "x" : -110.15961229173035,
+            "y" : 227.09174930615472
           },
           "properties" : {
             "wait-buffer-count" : "1",
@@ -878,7 +878,6 @@
             "y" : 1173.9118255952608
           },
           "properties" : {
-            "Attributes to Send" : "Content-Type: application/json",
             "use-etag" : "false",
             "Proxy Type" : "http",
             "Connection Timeout" : "5 secs",
@@ -888,7 +887,7 @@
             "Use Chunked Encoding" : "false",
             "Follow Redirects" : "True",
             "Remote URL" : "${callbackUrl}",
-            "Content-Type" : "application/json",
+            "Content-Type" : "${mimeType}",
             "Read Timeout" : "15 secs",
             "Max Length To Put In Attribute" : "256",
             "Digest Authentication" : "false",
